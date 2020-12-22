@@ -1,0 +1,112 @@
+/* Aboutme */
+.aboutH3{
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 15px;
+  }
+  .Seemorebtn{
+    color: rgba(0,0,0,.6);
+      /* line-height: inherit; */
+      /* position: absolute; */
+      /* bottom: 0; */
+      /* right: 0; */
+      margin-bottom: 0;
+      padding-left: 8px;
+      background: none;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      line-height: inherit!important;
+  }
+  .borderAbout{
+    border: 1px solid #dee2e6!important;
+    text-align: justify;
+    margin-top: 25px;
+    padding-top: 10px;
+    border-radius: 10px;
+  }
+  .borderworks{
+    border: 1px solid #dee2e6!important;
+    text-align: justify;
+    margin-top: 25px;
+    padding-top: 10px;
+  }
+  .textJustify{
+    text-align: justify;
+  }
+  
+  
+  /* Work Profile import */
+  .workpdTop{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  /* Work Profile */
+  
+  .float-right {
+    float: right!important;
+  }
+  .borderWorkP{
+    border: 1px solid #dee2e6!important;
+    border-radius: 10px;
+    /* border: 1px solid #dee2e6!important; */
+  }
+  .cardpd{
+    padding: 20px 0;
+  }
+  .workH3{
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  
+  /* Portfolio */
+  
+  .portfolioh3{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .imgSize{
+    width: 100%;
+    height: 300px;
+  }
+  .portfoliopd{
+    padding: 20px;
+  }
+  
+  /* Details */
+  .foatRight{
+    float: Right;
+  }
+  .foatLeft{
+    float: left;
+  }
+  .pd{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 18px;
+      /* padding-right: 18px */
+  }
+  .headT{
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+  .mtop{
+    margin-top: 25px;
+  }
+  .ptop{
+    padding-top: 45px;
+  }
+  .card1{
+      -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+      border: 0;
+      padding: 8px;
+  
+      /* margin-bottom: 40px; */
+      margin-top: 20px;
+      margin-right: 30px;
+  }

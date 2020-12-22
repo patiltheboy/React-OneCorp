@@ -1,0 +1,119 @@
+/* SellerProfile Edit */
+
+/* step */
+.stepBorder{
+    border: 2px solid #09c;
+    border-radius: 10px;
+  }
+  .p-m{
+    padding: 50px;
+    margin: 0 100px 0 100px;
+  }
+  
+
+  label{
+    color: dimgrey;
+  }
+  
+  .icon{
+    margin-top: 11px;
+    position: absolute;
+  }
+  
+  .formRM{
+    height: 25px;
+    font-size: 15px;
+    position: absolute;
+  }
+  .formRF{
+    height: 25px;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+  
+  /* Full-width input fields */
+  .inputNoBorder {
+    width: 100%;
+    /* padding: 15px; */
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    outline: none;
+    /* background: #f1f1f1; */
+    border-bottom: 1px solid;
+  }
+  
+  .textarea {
+    overflow: auto;
+    height: 74px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  /* Set a style for the submit button */
+  .btnSubmit {
+    background-color: green;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btnSubmit:hover {
+    opacity: 1;
+  }
+  
+  .skipBtn{
+    text-align: right;
+    color: blue;
+    margin: 12px 25px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .addBtn{
+    border: 1px solid #33E9FF;
+    border-radius: 5px;
+    text-align: center;
+    color: darkslategray;
+    padding: 5px 25px 5px 25px;
+    background-color: aliceblue;
+  }
+  
+  .languageAdd{
+    border: 1px solid;
+    margin-top: 10px;
+  }
+  
+  .educerAdd{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+  }
+  .educerSub{
+    padding-bottom: 10px;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+  }
+  .educerText{
+    margin-left: 10px;
+    text-align: left;
+    color: dimgrey;
+    width: 40%;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+  }
+  .educerModalText{
+    width: 50%;
+    float: right;
+    color: dimgrey;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+  }

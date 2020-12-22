@@ -1,0 +1,213 @@
+/* policis */
+
+.headP{
+    font-size: 25px;
+      font-weight: 900;
+      margin-bottom: 20px;
+  }
+  .subHeadP{
+    font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+  }
+  .borderPolicis{
+    border: 1px solid #dee2e6!important;
+    text-align: justify;
+    margin-top: 25px;
+    border-radius: 5px;
+  }
+  
+  .card1-deck .card1 {
+    margin-bottom: 15px;
+  }
+  
+  .timeline{
+    list-style:none;
+    padding:20px 0;
+    position:relative;
+  }
+  .timeline:before{
+    top:0;bottom:0;
+    position:absolute;
+    content:" ";
+    width:3px;
+    background-color:#921616;
+    left:50%;
+    margin-left:-1.5px;
+  }
+  .timeline>li{
+    margin-bottom:20px;
+    position:relative;
+  }
+  .timeline>li:after,.timeline>li:before{
+    content:" ";
+    display:table;
+  }
+  .timeline>li:after{
+    clear:both;
+  }
+  .timeline>li>.timeline-heading-1{
+    float:right;
+    width:46%;
+    text-align:left;
+    top:35px;
+    position:relative;
+  }
+  .timeline>li>.timeline-panel{
+    width:45%;
+    float:left;
+    border:1px solid #fff;
+    border-radius:2px;
+    padding:20px 30px;
+    background:#f1f1f1;
+    position:relative;
+    -webkit-box-shadow:0 1px 6px rgba(0,0,0,.175);
+    box-shadow:0 1px 6px rgba(0,0,0,.175);
+    text-align:left;
+  }
+  .timeline>li>.timeline-panel:before{
+    position:absolute;
+    top:26px;
+    right:-15px;
+    display:inline-block;
+    border-top:15px solid transparent;
+    border-left:15px solid #fff;
+    border-right:0 solid #fff;
+    border-bottom:15px solid transparent;
+    content:" ";
+  }
+  .timeline>li>.timeline-panel:after{
+    position:absolute;
+    top:27px;
+    right:-14px;
+    display:inline-block;
+    border-top:14px solid transparent;
+    border-left:14px solid #f1f1f1;
+    border-right:0 solid #f1f1f1;
+    border-bottom:14px solid transparent;
+    content:" ";
+  }
+  .timeline>li>.timeline-badge{
+    box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 2px 4px #000000;
+    -moz-transition: width .5s, height .5s, -webkit-transform .5s;
+    -webkit-transition: width .5s, height .5s, -webkit-transform .5s;
+    transition: width .5s, height .5s, transform .5s;
+    color:#fff;
+    width:70px;
+    height:70px;
+    line-height:67px;
+    font-size:1.7em;
+    text-align:center;
+    position:absolute;
+    top:15px;left:50%;
+    margin-left:-35px;
+    background-color:#921616;
+    border:2px solid #fff;
+    z-index:9;
+    /* box-shadow:0 0 45px 7px #0008a; */
+    border-radius:50px;
+  }
+  .timeline>li.timeline-inverted>.timeline-panel{
+    float:right;
+  }
+  .timeline>li.timeline-inverted>.timeline-heading-1{
+    float:left;
+    text-align:right;
+  }
+  .timeline>li.timeline-inverted>.timeline-panel:before{
+    border-left-width:0;
+    border-right-width:15px;
+    left:-15px;
+    right:auto;
+  }
+  .timeline>li.timeline-inverted>.timeline-panel:after{
+    border-left-width:0;
+    border-right-width:14px;
+    left:-14px;
+    right:auto;
+  }
+  .timeline-title{
+    margin-top:0;
+    font-size:20px;
+    color:#921616;
+  }
+  .timeline-body>p,.timeline-body>ul{
+    margin-bottom:0;
+    font-size:16px;
+    color:#000;
+  }
+    .timeline-body>p+p{
+      margin-top:5px;
+    }
+    .timeline-heading{
+      display:none!important;
+    }
+    @media (max-width:767px){
+      .timeline-heading-1{
+        display:none!important;
+      }
+      .timeline-heading{
+        display:block!important;
+      }
+      ul.timeline:before{
+        left:40px;
+      }
+      ul.timeline>li>.timeline-panel{
+        width:calc(100% - 90px);
+        width:-moz-calc(100% - 90px);
+        width:-webkit-calc(100% - 90px);
+        float:right;
+      }
+      ul.timeline>li>.timeline-badge{
+        left:3px;
+        margin-left:0;
+        top:7px;
+      }
+      ul.timeline>li>.timeline-panel:before{
+        border-left-width:0;
+        border-right-width:15px;
+        left:-15px;
+        right:auto;
+      }
+      ul.timeline>li>.timeline-panel:after{
+        border-left-width:0;
+        border-right-width:14px;
+        left:-14px;
+        right:auto;
+      }
+    }
+  
+    .borderBtm{
+      border-bottom: 5px solid maroon;
+    }
+    .borderHead{
+      border-top: 5px solid maroon;
+    }
+    .saleSub{
+      padding-top: 96px;
+      text-align: justify;
+    }
+    .headingP{
+      color: maroon;
+      font-size: 25px;
+      font-weight: 900;
+      margin-bottom: 20px;
+    }
+    .iconSize{
+      font-size: 30px;
+      margin-right: 10px;
+    }
+    .keySubHeading{
+      font-size: 18px;
+      /* color: maroon; */
+    }
+    .optimizing{
+        position: absolute;
+        top: 30px;
+        /* right: 16px; */
+        color: #000;
+        font-size: xxx-large;
+      font-weight: bold;
+      padding: 30px;
+    }

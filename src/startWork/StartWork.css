@@ -1,0 +1,404 @@
+/* --------Modal Body---------- */
+
+.modal-body {
+    overflow-y: scroll;
+    overflow: overlay;
+}
+.modal-dialog, .modal-content {
+    /* 80% of window height */
+    height: 95%;
+}
+.modalOpen {
+    overflow: hidden;
+}
+
+/* ---------------Top style--------------- */
+.start{
+    padding: 10px;
+}
+.startHeading{
+    font-weight: bold;
+}
+.startP{
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+/* -------------------Delivery---------------------- */
+
+.deliveryInputDiv{
+    text-align: center;
+    margin-top: 30px;
+}
+.deliveryIcon{
+    margin-top: 10px;
+    position: absolute;
+    font-size: 30px;
+    padding-left: 5px;
+    color: darkturquoise;
+}
+.deliveryInput{
+    padding: 5px;
+    padding-left: 40px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid cadetblue;
+    outline: 1px cadetblue;
+}
+.deliveryDays{
+    border: 1px solid;
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.dayRadio{
+    display: none;
+}
+
+.daySelect:hover {
+    cursor: pointer;    
+}
+.dayRadio:checked + .daySelect{
+    background-color: darkseagreen;
+    /* padding: 5px; */
+}
+
+
+/*---------------------- Work Description ---------------------------*/
+.textareaWD {
+    overflow: auto;
+    height: 190px;
+    width: 100%;
+    padding: 5px;
+    outline: 1px;
+    border: 1px solid;
+}
+.instructionText{
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+}
+
+/*--------------------- Delivery  Format --------------------------*/
+.accodionHead{
+    color: black;
+}
+.card-Header {
+    /* padding: .75rem 1.25rem; */
+    margin-bottom: 0;
+    /* background-color: rgba(0,0,0,.03); */
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 10px 10px 5px 0;
+}
+.checkboxLabel{
+    /* border: 1px solid;
+    padding: 5px; */
+    font-size: 12px;
+    font-weight: bold;
+    width: 112px;
+    display: inline-flex;
+    margin-right: 20px;
+}
+.checkboxTop{
+    margin-top: 7px;
+}
+.checkLabelText{
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+/*--------------- Work Sample --------------- */
+.fileBorder{
+    border: none;
+    outline: none;
+}
+.thumb{
+    display: inline-flex;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+}
+.thumbInner{
+    display: flex;
+    min-width: 0;
+    overflow: hidden;
+}
+.img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.Container{
+    display: 'flex';
+    flex-direction: 'row';
+    flex-wrap: 'wrap';
+    margin-top: 16px;
+  }
+
+  .fatimes{
+    position: absolute;
+    margin-left: 105px;
+  }
+
+/* --------------------Work sample Select------------------- */
+.workSelectWidth{
+    width: 123px;
+    height: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.workSelectimg{
+    width: 110px;
+    height: 110px;
+    align-self: center;
+    border: 1px solid darkcyan;
+    padding: 5px;
+}
+.workRadio{
+    display: none;
+}
+.workS:focus{
+    cursor: pointer;
+    
+}
+.workRadio:checked + .workS{
+    background-color: #bbbfff;
+}
+
+.option_item {
+    position: relative;
+    margin: 10px;
+}
+  
+.option_item .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+}
+  
+.option_item .option_inner {
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    color: #585c68;
+    display: block;
+    border: 3px solid transparent;
+    position: relative;
+}
+
+.option_item .checkbox:checked ~ .option_inner.quora {
+    border-color: darkcyan;
+}
+
+.option_item .option_inner .tickmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 20px solid;
+    border-color: #000 transparent transparent #000;
+    display: none;
+}
+
+.option_item .option_inner .tickmark:before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: -18px;
+    width: 15px;
+    height: 5px;
+    border: 3px solid;
+    border-color: transparent transparent #fff #fff;
+    transform: rotate(-45deg);
+}
+
+.option_item .checkbox:checked ~ .option_inner .tickmark {
+    display: block;
+}
+  
+.option_item .option_inner.quora .tickmark {
+    border-color: darkcyan transparent transparent darkcyan;
+}
+
+/*--------------- Preview -------------------*/
+.cardShadow{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    border: 0;
+    padding: 8px;
+}
+.previewText{
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.previewIcon{
+    font-size: 65px;
+    position: absolute;
+}
+.previewName{
+    padding-left: 70px;
+    display: block;
+}
+.previewLastText{
+    font-size: 13px;
+    font-style: italic;
+    width: 85%;
+}
+
+
+
+/* ---------------------------------Ranbeerr--------------------------------------------- */
+
+/* ---------create new work-------- */
+.modalhead{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    border: 0;
+}
+.text_color{
+    color: #7d7f85;
+}      
+.imgsizz{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.categorytext{
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.workWidth{
+    width: 123px;
+    height: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.workRadio{
+    display: none;
+}
+.work:focus{
+    cursor: pointer;
+    
+}
+.workRadio:checked + .work{
+    background-color: darkseagreen;
+}
+
+
+/* ------------ */
+
+
+/* -----------------Sub-Catogry----------------- */
+
+.modalhead{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    border: 0;
+}
+.text_center{
+    margin-left: 146px; 
+}
+
+.listtext{
+    font-size: 13px;
+    font-weight: bold;
+}
+.subCatText{
+    width: 100%;
+    background: aliceblue;
+    color: black ;
+}
+.subCatRadio {
+    display: none;
+}
+.catText:hover {
+    cursor: pointer;    
+}
+
+.subCatRadio:checked + .catText{
+    background-color: darkseagreen;
+}
+
+
+
+
+
+/* -------------Work-Title-------------- */
+.modalhead{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    border: 0;
+}
+.textLabel{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+.formcontrol{
+    width: 100%;
+}
+.titleSelect{
+    width: 100%;
+    background: aliceblue;
+    color: black;
+}
+.workRadio{
+    display: none;
+}
+.workText:hover {
+    cursor: pointer;    
+}
+
+.workRadio:checked + .workText{
+    background-color: darkseagreen;
+}
+
+/* --------------Pricing------------ */
+.modalhead{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    border: 0;
+}
+.text_center{
+    margin-left: 146px;
+}
+.text_color{
+    color: #7d7f85;
+}
+
+.formprice{
+    width: 60%;
+    padding-left: 30px;
+    line-height: 40px;
+}
+.iconRupee{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 12px;
+    margin-left: 8px;
+    color: royalblue;
+}
+                  
+/* ---------------testing css---------------- */
+
+
+  

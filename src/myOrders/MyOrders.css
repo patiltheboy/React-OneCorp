@@ -1,0 +1,73 @@
+.tabHead {
+    line-height: 2.5;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+    font-weight: bold;
+    color:gray
+}
+
+.tabHeadS{
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.tabHeadS .active {
+    border-color: #09c!important;
+}
+
+.tabHeadS a {
+    width: 25%;
+    text-align: center;
+    border: none!important;
+    border-bottom: 4px solid #dfdfdf!important;
+    color: #707070!important;
+}
+.orderFont{
+    color: #707070!important;
+}
+.ordersImg{
+    height: 105px;
+    width: 80px;
+    position: absolute;
+}
+.ordersHead{
+    /* position: absolute; */
+    padding-left: 90px;
+    font-size: 20px;    
+}
+.orderto{
+    padding-left: 90px;
+    font-size: 17px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+.orderStatus{
+    padding-left: 90px;
+    font-size: 15px;
+    /* margin-top: 5px; */
+    font-weight: 500;
+}
+.dotBtn{
+    background: none;
+    border: none;
+    color: #707070!important;
+    float: right;
+}
+.overlayFont{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.overlaystyle{
+    top: 65px !important;
+}
+.overlaystyle .arrow {
+    top: 14px !important;
+    transform: translate(0px) !important;
+}
+.overlaystyle[x-placement^=left]>.arrow::after, .overlaystyle>.arrow::after {
+    border-left-color: #f7f7f7 !important;
+}

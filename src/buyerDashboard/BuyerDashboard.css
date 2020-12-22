@@ -1,0 +1,277 @@
+/* ---------------------BuyerDashBoard2------------------ */
+.navt {
+    line-height: 2.5;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+    font-weight: bold;
+    color:gray
+  }
+  
+  .sd_navt{
+    
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
+  .tab_margin{
+    margin-left: 0rem!important;
+    margin-right: 0rem!important;
+  }
+  
+  .sd_navt .active {
+    border-color: #09c!important;
+  }
+  .card-header-tabs {
+    margin-right: 0rem;
+    margin-bottom: -.75rem;
+    margin-left: 0;
+    border-bottom: 0;
+  }
+  
+  
+  .navt-tabs .navt-link.active {
+   
+    background-color: #fff;
+   
+  }
+  .navt-tabs .navt-link {
+    
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
+  .navt-tabs .navt-item {
+    margin-bottom: -1px;
+  }
+  .sd_navt a {
+    width: 50%;
+    text-align: center;
+    border: none!important;
+    border-bottom: 4px solid #dfdfdf!important;
+    color: #707070!important;
+  }
+  .navt-link {
+    display: block;
+    padding: 1rem 1rem;
+  }
+  a {
+    text-decoration: none;
+    }
+    .padding_left{
+      margin-left: 5px;
+    }
+  
+  .roundImg{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    border: 0;
+  }
+  .buyerTextL{
+    padding-left: 100px;
+  }
+  .displayFloatRoot{
+    display: flow-root;
+    /* padding-left: 110px; */
+  }
+.pdL{
+  padding-left: 20px;
+}
+.icon_sizE{
+  font-size: 10px;
+  color:#ffd400;
+}
+.pdLI{
+  padding-left: 30px;
+}
+.fontsize{
+  font-weight: bold;
+  font-size: 18px;
+  color:#000000a6;
+}
+.font_size{
+  font-weight: bold;
+  font-size: 13px;
+  color:#000000a6;
+}
+  .font_sizeL{
+    font-size:12px;
+    font-weight: bold;
+    color:#000000a6;
+  }
+  .btn_style{
+      border: 1px solid;
+    padding: 5px;
+    background: #0e8000b5;
+    color: white;
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+  
+  .educerAdd{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+  }
+  .educerSub{
+    padding-bottom: 10px;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+  }
+  .educerText{
+    margin-left: 10px;
+    text-align: left;
+    color: dimgrey;
+    width: 40%;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+  }
+  .educerModalText{
+    width: 50%;
+    float: right;
+    color: dimgrey;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+  }
+  .tabheadsize{
+    font-weight: bold;
+    font-size: 24px;
+    color:#000000a6;
+  }
+  .roundImgsm{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    border: 0;
+  }
+  .textrw{
+    padding-left: 50px;
+  }
+   .bTexteading{
+    font-weight: bold;
+    font-size: 24px;
+    color:#000000a6;
+  }
+  .imagesView{
+    height: 400px;
+    width: 100%;
+  }  
+.ImageSize{
+  height: 200px;
+  width: 50%;
+}
+
+
+
+.container1{
+  position: relative;
+  /* width: 50%; */
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container1:hover .image {
+  opacity: 0.2;
+}
+
+.container1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.cardSizE{
+width: 100%;
+height: 200px;
+}
+
+
+/*-------------------- modal ---------------------*/
+
+.shareModalHeight{
+  /* background: #ffffff !important; */
+  top: 20% !important;
+  height: 50% !important;
+  overflow-y: hidden !important;
+}
+.shareModelCopytext{
+  margin-top: 50px;
+  width: 100%;
+  border: 1px solid #747474;
+  padding: 5px;
+  background-color: #f7f7f7;
+  border-radius: 2px;
+}
+.shareModalLink{
+  margin-left: 10px;
+  padding: 0;
+  width: 80%;
+  border: none;
+  outline: none;
+  background-color: #f7f7f7;
+  font-size: 15px;
+}
+.shareModalCopy{
+  margin-left: 10px;
+  float: right;
+}
+
+/* -----------Like Dislike */
+
+
+/* .fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+  } */
+  /* .fa-thumbs-up {
+  color: blue;
+  }
+  .fa-thumbs-down {
+  color: red;
+  }
+  .fa:hover {
+  transform: scale(1.2);
+} */
+.fa{
+  color: red;
+}
+
+.liked{
+  color: red;
+  font-size: 20px;
+}
+.unliked{
+  font-size: 20px;
+}
